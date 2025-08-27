@@ -20,30 +20,35 @@ now containerized using Docker with Nginx for reliable, reproducible deployments
 
 ## Setup Instructions
 
-1. **Clone the repository:**
-2. 
+**Clone the repository:**
+
 git clone https://github.com/yourusername/currency-converter.git
 cd currency-converter
 Build the Docker image:
+
 
 
 docker build -t yourusername/currency-converter:latest .
 Run the container:
 
 
+
 docker run -d -p 8080:80 yourusername/currency-converter:latest
 Access the app:
 Open your browser at http://localhost:8080
 
+
 ---Screenshots---
-Dockerfile
-Docker Build Output
-Container Running
-DockerHub Image
+Dockerfile,
+Docker Build Output,
+Container Running,
+DockerHub Image,
 Web App Running
+
 
 DockerHub Link
 https://hub.docker.com/r/syednasir9/currency-converter/tags
+
 
 Notes
 Why Docker: Containerizing the app ensures it runs consistently across any environment without dependency conflicts. This showcases your practical knowledge of containerization.
