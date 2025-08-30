@@ -4,7 +4,7 @@ FROM nginx:alpine
 # Remove default nginx content
 RUN rm -rf /usr/share/nginx/html/*
 
-# Copy project files to Nginx HTML folder
+# Copy project files to nginx HTML folder
 COPY . /usr/share/nginx/html
 
 # Expose port 80
