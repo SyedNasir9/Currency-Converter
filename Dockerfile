@@ -1,4 +1,4 @@
-# Use official Nginx image
+# Use official nginx image
 FROM nginx:alpine
 
 # Remove default nginx content
